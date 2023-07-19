@@ -1,0 +1,13 @@
+fun(int a)
+  if(a<1)
+    return
+  else
+    print a
+    fun(a-1)
+    print a
+    return
+
+A function or method calling a copy of itself is known as Recursion.
+Recursion uses stacks to keep the trace of recursive calls.
+
+O/p: 2 1 1 2
